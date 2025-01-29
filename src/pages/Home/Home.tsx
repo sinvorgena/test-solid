@@ -143,7 +143,7 @@ function Home() {
         <AnimSvg width={20} height={20}>
           <LightningIcon/>
         </AnimSvg>
-        </Button>
+      </Button>
       <img className={styles['bg-image']} src={homePageBgImgPath} />
     </div>
   )
