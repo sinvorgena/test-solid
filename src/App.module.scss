@@ -1,0 +1,17 @@
+// App.module.scss
+
+.app-container {
+    display: flex;
+    max-height: 100svh;
+    min-height: 100%;
+    flex-direction: column;
+    background-color: #121212;
+    text-align: center;
+  }
+  
+  .content {
+    position: relative;
+    display: flex;
+    height: calc(100% - var(--footerHeight));
+    flex-grow: 1;
+  }
