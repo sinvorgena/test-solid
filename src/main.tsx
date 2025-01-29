@@ -7,7 +7,6 @@ import App from './App'
 import { sleep } from './lib/utils'
 import { store } from './store'
 import { AppModes, setLoadingProgress, setMode } from './store/app'
-import Route from './widgets/Route'
 
 const HomePageLazy = lazy(() => import('./pages/Home/Home'))
 
@@ -49,9 +48,7 @@ const homeRoute = createRoute({
 		
 
 		return (
-			<Route>
-				<HomePageLazy />
-			</Route>
+			<HomePageLazy />
 		)
 	}
 })
